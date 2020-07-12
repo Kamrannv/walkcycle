@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cycle sprite sheet</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+</head>
+<body>
+<figure class="cycle">
+
+	<img src="svg/gm-1.01.svg" height="170px" id="one"  class="animate__fadeIn" alt="image" />
+	<img src="svg/gm-1.02.svg" height="170px" id="two"  class="animate__fadeIn hidden" alt="image" />
+	<img src="svg/gm-1.03.svg" height="170px" id="three"class="animate__fadeIn hidden" alt="image" />
+	<img src="svg/gm-1.04.svg" height="170px" id="four" class="animate__fadeIn hidden" alt="image" />
+	<img src="svg/gm-1.05.svg" height="170px" id="five" class="animate__fadeIn hidden" alt="image" />
+	<img src="svg/gm-1.06.svg" height="170px" id="six"  class="animate__fadeIn hidden" alt="image" />
+	<img src="svg/gm-1.07.svg" height="170px" id="seven"class="animate__fadeIn hidden" alt="image" />
+	<img src="svg/gm-1.08.svg" height="170px" id="eight"class="animate__fadeIn hidden" alt="image" />
+	
+</figure>
+
+<div class="container">
+	<input 
+	type="range" 
+	min="1"
+	max="100"
+	value="1"
+	class="slider"
+	id="myRange"
+	onmousemove="rangeSlider(this.value)"
+	onchange="rangeSlider(this.value)" 
+	/>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+	background-color: #edc77e;
+}
+.cycle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+}
+
+.hidden{
+	display: none;
+}
+
+/* input range*/
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.slider{
+	width: 250px;
+	height: 2px;
+	border-radius: 25px;
+	background: #080808;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition:0.2s;
+	-webkit-appearance: none;
+	transition:opacity 0.2s;
+}
+
+/*The slider handle*/
+
+.slider:hover{
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+.slider::-webkit-slider-thumb
+{
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #ad0909;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
